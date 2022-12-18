@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>ml.hadiya</groupId>
+  <artifactId>medical_store</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20221218104217</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,22 @@
+.form-row-fields{
+    margin: 2rem 1rem;
+}
+
+sup{
+    color: red;
+}
+
+input{
+    margin: 0 1rem;
+}
+
+select{
+    min-width: 10rem;
+}
+
+.actions{
+    text-align: right;
+}
+.actions > button{
+    margin: 0 1rem;
+}

@@ -1,0 +1,20 @@
+.brand{
+    width: 100%;
+    /* background-color: cyan; */
+    color: var(--secondary-color);
+    text-align: center;
+    margin-top: 5rem;
+}
+.login-area{
+    width: 100%;
+    /* background-color: cyan; */
+    text-align: center;
+    margin-top: 3rem;
+}
+.login-area > form > input{
+    margin: 1rem;
+    height: 1.5rem;
+}
+.login-area > form > button{
+    margin: 1rem;
+}

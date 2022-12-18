@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    --primary-color: #350d75;
+    --secondary-color: #190041;
+    --light: #dbe2ef;
+    --heaven: #f9f7f7;
+    --danger: rgb(189, 11, 11);
+    --deep-danger: rgb(95, 1, 1);
+}
+
+@font-face{
+    font-family: "open-sans-regular";
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+body{
+    font-family: 'open-sans-regular';
+}
+
+.container{
+    width: 100vw;
+    height: 100%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-right{
+    margin-right: auto;
+}
+
+.btn{
+    width: 8rem;
+    height: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--heaven);
+}
+.btn-primary:hover{
+    background-color: var(--secondary-color);
+    color: var(--heaven);
+}
+
+.btn-link{
+    display: inline-block;
+    width: 8rem;
+    height: 2rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-link-primary{
+    background-color: var(--primary-color);
+    color: var(--heaven);
+}
+.btn-link-primary:hover{
+    background-color: var(--secondary-color);
+    color: var(--heaven);
+}
+
+.error{
+    width: 25%;
+    text-align: center;
+    border-radius: 5px;
+    margin: 1rem auto;
+    padding: 0.5rem 0;
+    background-color: var(--danger);
+    color: white;
+}
+
+.side-nav{
+    background-color: var(--primary-color);
+    width: 20%;
+    min-height: 100vh;
+    padding: 1rem 0;
+}
+
+.side-nav a{
+    text-decoration: none;
+    color: var(--light);
+    padding: 1.5rem 1rem;
+    width: 100%;
+}
+
+.side-nav a:hover{
+    background-color: var(--secondary-color);
+}
+
+.selected-link{
+    background-color: var(--secondary-color);
+}
+
+.content-area{
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.header-section{
+    color: var(--primary-color);
+    /* background-color: cadetblue; */
+    height: 10vh;
+    width: 100%;
+    padding: 1rem;
+}
+
+.header-section > h2{
+    margin: 0 2rem;
+}
+
+.content-section{
+    /* background-color: cyan; */
+    width: 100%;
+    padding: 1rem 3rem;
+}
+
+table{
+    width: 100%;
+    border: 0.5px solid var(--secondary-color);
+    padding: 0;
+    margin: 2rem auto;
+    border-spacing: 0;
+}
+
+table td a:first-child{
+    color: var(--secondary-color);
+}
+table td a:last-child{
+    color: var(--danger);
+}
+
+th{
+    background-color: var(--primary-color);
+    color: var(--light);
+}
+
+th, td {
+    padding: 15px;
+    margin: 0;
+    text-align: left;
+    border: 0.5px solid var(--primary-color);
+}
